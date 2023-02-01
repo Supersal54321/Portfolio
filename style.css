@@ -1,0 +1,44 @@
+*{font-family: 'Courier New', Courier, monospace;
+}
+
+
+#navbar {
+    background-color: coral;
+    border-color: blue;
+    border-width: 5px;
+    border-style: solid;
+    font-size: 30px;
+    height: 100px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+     /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+    align-items: center;
+
+}
+
+h1{
+    color: black;
+    font-size: 70px;
+}
+h2{
+    color: black;
+    font-size: 50px;
+}
+
+h3{
+    color: black;
+    font-size: 35px;
+}
+
+
+
+
+p{
+    color:black;
+    font-size: 20px;
+}

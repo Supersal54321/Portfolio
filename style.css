@@ -2,9 +2,9 @@
 }
 
 
-#navbar {
-    background-color: coral;
-    border-color: blue;
+#navbar{
+    background-color: black;
+    border-color: grey;
     border-width: 5px;
     border-style: solid;
     font-size: 30px;
@@ -21,6 +21,19 @@
 
 }
 
+a{
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: gray;
+    font-weight: bold;
+}
+
+
+
 h1{
     color: black;
     font-size: 70px;
@@ -35,10 +48,58 @@ h3{
     font-size: 35px;
 }
 
+.container {
+    position: relative;
+    text-align: left;
+    color: white;
+  }
+
+img{
+    height:525px;
+}
+/* // how to put text on image using css */
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: black;
+    margin-left: -12px;
+  }
 
 
 
 p{
     color:black;
     font-size: 20px;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.container-2 img{
+    width: 50%;
+}
+
+.container-3{
+    display: flex;
+    width: 100%;
+}
+
+.container-3 img{
+    width: 100%;
+    height: 750px;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+}
+
+.container{
+    width: 100%;
 }
